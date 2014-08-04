@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+ 
+<p id="demo"></p>
+
+<script>
+var w=window.innerWidth
+|| document.documentElement.clientWidth
+|| document.body.clientWidth;
+
+var h=window.innerHeight
+|| document.documentElement.clientHeight
+|| document.body.clientHeight;
+
+x=document.getElementById("demo");
+x.innerHTML="浏览器的内部窗口宽度：" + w + "，高度：" + h + "。"
+
+</script>
+<script>
+	document.write(location.href);//输出当前页面的整个URL
+	//echo "当前页面的路径名是" . "<br />";
+</script>
+<script>
+	document.write(location.pathname);
+</script>
+ </body>
+</html>
