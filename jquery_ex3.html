@@ -1,0 +1,23 @@
+<!doctype html>
+<html >
+ <head>
+ <!--包含jQuery库-->
+ <script src= "/js/jquery/1.8.3/jquery.min.js"></script>
+ <script type="text/javascript">
+	$(document).ready(function(){
+		$("button").click(function(){
+			//$("p").hide(2000);
+			$("p").toggle(1000);//函数toggle用来切换hide()和show()方法，显示被隐藏的元素，并隐藏已显示的元素：
+		});
+	});
+
+ </script>
+ </head>
+ <body>
+
+	<button type="button">切换</button>
+	<p>这是一个段落</p>
+	<p>这是另一个段落，用于演示快速隐藏</p>
+
+ </body>
+</html>
